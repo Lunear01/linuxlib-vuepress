@@ -37,5 +37,5 @@ export default defineUserConfig({
   }),
 
   bundler: viteBundler(),
-  dest: './docs/build' // Output directory
+  dest: 'docs/public' // Output directory
 })
