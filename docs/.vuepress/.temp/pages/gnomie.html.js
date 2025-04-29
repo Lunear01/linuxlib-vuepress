@@ -1,0 +1,3 @@
+import comp from "/home/lunear/Vuepress/vuepress-starter/docs/.vuepress/.temp/pages/gnomie.html.vue"
+const data = JSON.parse("{\"path\":\"/gnomie.html\",\"title\":\"Gnomie\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Dconf Editor\",\"slug\":\"dconf-editor\",\"link\":\"#dconf-editor\",\"children\":[]},{\"level\":2,\"title\":\"Extension Manager\",\"slug\":\"extension-manager\",\"link\":\"#extension-manager\",\"children\":[]},{\"level\":2,\"title\":\"Gnome Tweaks\",\"slug\":\"gnome-tweaks\",\"link\":\"#gnome-tweaks\",\"children\":[]},{\"level\":2,\"title\":\"SaveDesktop\",\"slug\":\"savedesktop\",\"link\":\"#savedesktop\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"gnomie.md\"}")
+export { comp, data }
