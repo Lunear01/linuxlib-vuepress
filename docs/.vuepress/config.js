@@ -6,32 +6,36 @@ export default defineUserConfig({
   lang: 'en-US',
   title: 'Linux App Library',
   description: 'A list of very useful or very cool apps!',
-
+  base: '/linuxlib-vuepress/', // GitHub repo name - must be at the root level
+  
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
     
     // Navbar configuration
     navbar: [
       { text: 'Home', link: '/' },
-      { text: "Editor's Choice", link: 'editorsChoice.md' },
-      { text: "Essentials", link: 'essentials.md' },
-      { text: "Popular", link: 'popular.md' },
-      { text: "Gnomie", link: 'gnomie.md' }
+      { text: "Editor's Choice", link: '/editorsChoice.md' }, // Added leading slash
+      { text: "Essentials", link: '/essentials.md' }, // Added leading slash
+      { text: "Popular", link: '/popular.md' }, // Added leading slash
+      { text: "Gnomie", link: '/gnomie.md' } // Added leading slash
     ],
     
     // Sidebar configuration
     sidebar: {
-      '/editorsChoice.md/': [
+      '/': [ // Changed to match all paths
         {
-          text: "Editor's Choice",
+          text: "Categories",
           children: [
             '/editorsChoice.md',
+            '/essentials.md',
+            '/popular.md',
+            '/gnomie.md'
           ]
         }
-      
       ]
     }
   }),
 
   bundler: viteBundler(),
+  dest: './docs/.vuepress/dist' // Output directory
 })
