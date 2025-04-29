@@ -1,4 +1,4 @@
-<template><div><p><sub>Go back to <RouteLink to="/home.html">Linux Apps Library</RouteLink></sub></p>
+<template><div><p><sub>Go back to <RouteLink to="/">Linux Apps Library</RouteLink></sub></p>
 <h1 id="editor-s-choice" tabindex="-1"><a class="header-anchor" href="#editor-s-choice"><span>Editor's Choice</span></a></h1>
 <h2 id="nautilus-file-manager" tabindex="-1"><a class="header-anchor" href="#nautilus-file-manager"><span><a href="https://apps.gnome.org/Nautilus/" target="_blank" rel="noopener noreferrer">Nautilus (File Manager)</a></span></a></h2>
 <p>The clean, functional, and blazing fast file manager by Gnome</p>

@@ -1,4 +1,4 @@
-<template><div><p><sub>Go back to <RouteLink to="/home.html">Linux Apps Library</RouteLink></sub></p>
+<template><div><p><sub>Go back to <RouteLink to="/">Linux Apps Library</RouteLink></sub></p>
 <h1 id="popular" tabindex="-1"><a class="header-anchor" href="#popular"><span>Popular</span></a></h1>
 <h2 id="discord" tabindex="-1"><a class="header-anchor" href="#discord"><span><a href="https://flathub.org/apps/com.discordapp.Discord" target="_blank" rel="noopener noreferrer">Discord</a></span></a></h2>
 <p>Discord messenger. Join servers and chat with friends!</p>

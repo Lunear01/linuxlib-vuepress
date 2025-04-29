@@ -1,4 +1,4 @@
-<template><div><p><sub>Go back to <RouteLink to="/home.html">Linux Apps Library</RouteLink></sub></p>
+<template><div><p><sub>Go back to <RouteLink to="/">Linux Apps Library</RouteLink></sub></p>
 <h1 id="gnomie" tabindex="-1"><a class="header-anchor" href="#gnomie"><span>Gnomie</span></a></h1>
 <h2 id="dconf-editor" tabindex="-1"><a class="header-anchor" href="#dconf-editor"><span><a href="https://flathub.org/apps/ca.desrt.dconf-editor" target="_blank" rel="noopener noreferrer">Dconf Editor</a></span></a></h2>
 <p>GUI to edit GSettings/Dconf database (advanced Gnome system settings).</p>
