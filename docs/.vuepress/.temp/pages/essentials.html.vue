@@ -1,4 +1,4 @@
-<template><div><p><sub>Go back to <RouteLink to="/">Linux Apps Library</RouteLink></sub></p>
+<template><div><p><sub>Go back to <RouteLink to="/home.html">Linux Apps Library</RouteLink></sub></p>
 <h1 id="essentials" tabindex="-1"><a class="header-anchor" href="#essentials"><span>Essentials</span></a></h1>
 <h2 id="flatseal" tabindex="-1"><a class="header-anchor" href="#flatseal"><span><a href="https://flathub.org/apps/com.github.tchx84.Flatseal" target="_blank" rel="noopener noreferrer">Flatseal</a></span></a></h2>
 <p>GUI to modify Flatpak permissions</p>
