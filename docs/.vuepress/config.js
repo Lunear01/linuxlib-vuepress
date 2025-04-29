@@ -6,7 +6,7 @@ export default defineUserConfig({
   lang: 'en-US',
   title: 'Linux App Library',
   description: 'A list of very useful or very cool apps!',
-  base: 'linuxlib-vuepress', // GitHub repo name - must be at the root level
+  base: '/linuxlib-vuepress', // GitHub repo name - must be at the root level
   
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
