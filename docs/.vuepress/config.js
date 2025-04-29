@@ -37,5 +37,5 @@ export default defineUserConfig({
   }),
 
   bundler: viteBundler(),
-  dest: './docs/.vuepress/distdocs/build' // Output directory
+  dest: './docs/build' // Output directory
 })
