@@ -1,4 +1,4 @@
-<sub>Go back to [Linux Apps Library](home.md)</sub>
+<sub>Go back to [Linux Apps Library](README.md)</sub>
 
 # Editor's Choice
 
